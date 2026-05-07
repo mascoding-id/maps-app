@@ -6,7 +6,7 @@ app = Flask(__name__, static_folder="asset", static_url_path="/asset")
 app.secret_key = "secret-key-ganti-ini"
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S"
 )
