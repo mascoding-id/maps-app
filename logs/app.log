@@ -1,0 +1,335 @@
+2026-05-07 00:21:22 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:21:22 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:21:22 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+2026-05-07 00:21:22 [INFO] Home accessed by admin@example.com
+2026-05-07 00:21:22 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.2223748840366975, lng=106.67227100954126, accuracy=134m
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227100954126,-6.2223748840366975;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8745.1m, duration=771.3s
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:21:22 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:21:29 [DEBUG] Verify route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:21:29 [DEBUG] Verify rendering, error: None, success: None
+2026-05-07 00:21:34 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:21:34 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:21:34 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+2026-05-07 00:21:34 [INFO] Home accessed by admin@example.com
+2026-05-07 00:21:34 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.2223748840366975, lng=106.67227100954126, accuracy=134m
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227100954126,-6.2223748840366975;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8745.1m, duration=771.3s
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:21:34 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:23:25 [DEBUG] Verify route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:23:25 [DEBUG] Verify rendering, error: None, success: None
+2026-05-07 00:23:54 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:23:54 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:23:54 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36
+2026-05-07 00:23:54 [INFO] Home accessed by admin@example.com
+2026-05-07 00:23:54 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:23:54 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:23:54 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:23:54 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:23:54 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:23:54 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:23:54 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:23:56 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:23:56 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:23:56 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.2223760607459155, lng=106.67227980454034, accuracy=90m
+2026-05-07 00:23:56 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:23:56 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227980454034,-6.2223760607459155;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:23:57 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:23:57 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:23:57 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8746m, duration=771.7s
+2026-05-07 00:23:57 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:23:57 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:23:57 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:23:57 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:24:28 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:24:28 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:24:28 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36
+2026-05-07 00:24:28 [INFO] Home accessed by admin@example.com
+2026-05-07 00:24:28 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:24:28 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:24:28 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:24:28 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:24:28 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:24:28 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:24:28 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.222376922264331, lng=106.67228023206614, accuracy=91m
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67228023206614,-6.222376922264331;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8746.1m, duration=771.7s
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:24:30 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:25:23 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:25:23 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:25:23 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36
+2026-05-07 00:25:23 [INFO] Home accessed by admin@example.com
+2026-05-07 00:25:23 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:25:23 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:25:23 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:25:23 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:25:23 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:25:23 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:25:24 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.2223760607459155, lng=106.67227980454034, accuracy=90m
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227980454034,-6.2223760607459155;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8746m, duration=771.7s
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:25:25 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:25:58 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:25:58 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:25:58 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36
+2026-05-07 00:25:58 [INFO] Home accessed by admin@example.com
+2026-05-07 00:25:58 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:25:58 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:25:58 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:25:58 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:25:58 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:25:58 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:25:58 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.222373821045898, lng=106.67227777466816, accuracy=96m
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227777466816,-6.222373821045898;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8745.8m, duration=771.6s
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:26:00 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:30:48 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:30:48 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:30:48 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0
+2026-05-07 00:30:48 [INFO] Home accessed by admin@example.com
+2026-05-07 00:30:48 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:30:49 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:30:49 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:30:49 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:30:49 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:30:49 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:30:49 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.222373821045898, lng=106.67227777466816, accuracy=96m
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227777466816,-6.222373821045898;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8745.8m, duration=771.6s
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:30:53 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:30:54 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:32:15 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:32:15 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:32:15 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36 Edg/147.0.0.0
+2026-05-07 00:32:15 [INFO] Home accessed by admin@example.com
+2026-05-07 00:32:15 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:32:15 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:32:15 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:32:15 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:32:15 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:32:15 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:32:15 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:32:17 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:32:17 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:32:17 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:32:17 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67228023206614,-6.222376922264331;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:32:17 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.222376922264331, lng=106.67228023206614, accuracy=91m
+2026-05-07 00:32:18 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:32:18 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:32:18 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8746.1m, duration=771.7s
+2026-05-07 00:32:18 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:32:18 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:32:18 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:32:18 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:32:55 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:32:55 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:32:55 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36 Edg/147.0.0.0
+2026-05-07 00:32:55 [INFO] Home accessed by admin@example.com
+2026-05-07 00:32:55 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:32:55 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:32:55 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:32:55 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:32:55 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:32:55 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:32:55 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.2223760607459155, lng=106.67227980454034, accuracy=90m
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227980454034,-6.2223760607459155;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8746m, duration=771.7s
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:32:57 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:34:40 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:34:40 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:34:40 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36 Edg/147.0.0.0
+2026-05-07 00:34:40 [INFO] Home accessed by admin@example.com
+2026-05-07 00:34:40 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:34:40 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:34:40 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:34:40 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:34:41 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:34:41 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:34:41 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:34:42 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.222374143684562, lng=106.67227729316105, accuracy=108m
+2026-05-07 00:34:42 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:34:42 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:34:42 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:34:42 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227729316105,-6.222374143684562;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:34:43 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:34:43 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:34:43 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8745.7m, duration=771.5s
+2026-05-07 00:34:43 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:34:43 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:34:43 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:34:43 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 00:36:01 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 00:36:01 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 00:36:01 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36 Edg/147.0.0.0
+2026-05-07 00:36:01 [INFO] Home accessed by admin@example.com
+2026-05-07 00:36:01 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 00:36:01 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 00:36:01 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 00:36:01 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 00:36:01 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 00:36:01 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 00:36:01 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 00:36:03 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 00:36:03 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.2223760607459155, lng=106.67227980454034, accuracy=90m
+2026-05-07 00:36:03 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 00:36:03 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 00:36:03 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.67227980454034,-6.2223760607459155;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 00:36:04 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 00:36:04 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 00:36:04 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=8746m, duration=771.7s
+2026-05-07 00:36:04 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 459 points
+2026-05-07 00:36:04 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 00:36:04 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=8.75 km, time=13 menit
+2026-05-07 00:36:04 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
+2026-05-07 08:43:01 [DEBUG] ==================================================
+2026-05-07 08:43:01 [DEBUG] Application starting...
+2026-05-07 08:43:01 [DEBUG] Log directory: D:\dir_work\work_private\web_simple\logs
+2026-05-07 08:43:01 [DEBUG] Static folder: D:\dir_work\work_private\web_simple\asset
+2026-05-07 08:43:01 [DEBUG] Registered users: ['admin@example.com']
+2026-05-07 08:43:01 [DEBUG] ==================================================
+2026-05-07 08:43:01 [DEBUG] ==================================================
+2026-05-07 08:43:01 [DEBUG] Application starting...
+2026-05-07 08:43:01 [DEBUG] Log directory: D:\dir_work\work_private\web_simple\logs
+2026-05-07 08:43:01 [DEBUG] Static folder: D:\dir_work\work_private\web_simple\asset
+2026-05-07 08:43:01 [DEBUG] Registered users: ['admin@example.com']
+2026-05-07 08:43:01 [DEBUG] ==================================================
+2026-05-07 08:43:03 [DEBUG] ==================================================
+2026-05-07 08:43:03 [DEBUG] Application starting...
+2026-05-07 08:43:03 [DEBUG] Log directory: D:\dir_work\work_private\web_simple\logs
+2026-05-07 08:43:03 [DEBUG] Static folder: D:\dir_work\work_private\web_simple\asset
+2026-05-07 08:43:03 [DEBUG] Registered users: ['admin@example.com']
+2026-05-07 08:43:03 [DEBUG] ==================================================
+2026-05-07 08:43:05 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 08:43:05 [DEBUG] Home session state: {}
+2026-05-07 08:43:05 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0
+2026-05-07 08:43:05 [DEBUG] No email in session, redirecting to login
+2026-05-07 08:43:05 [DEBUG] Login route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 08:43:05 [DEBUG] Login request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0
+2026-05-07 08:43:05 [DEBUG] Login current session state: {}
+2026-05-07 08:43:05 [DEBUG] Login rendering login.html, error: None
+2026-05-07 13:53:16 [DEBUG] ==================================================
+2026-05-07 13:53:16 [DEBUG] Application starting...
+2026-05-07 13:53:16 [DEBUG] Log directory: D:\dir_work\work_private\web_simple\logs
+2026-05-07 13:53:16 [DEBUG] Static folder: D:\dir_work\work_private\web_simple\asset
+2026-05-07 13:53:16 [DEBUG] Registered users: ['admin@example.com']
+2026-05-07 13:53:16 [DEBUG] ==================================================
+2026-05-07 13:53:17 [DEBUG] ==================================================
+2026-05-07 13:53:17 [DEBUG] Application starting...
+2026-05-07 13:53:17 [DEBUG] Log directory: D:\dir_work\work_private\web_simple\logs
+2026-05-07 13:53:17 [DEBUG] Static folder: D:\dir_work\work_private\web_simple\asset
+2026-05-07 13:53:17 [DEBUG] Registered users: ['admin@example.com']
+2026-05-07 13:53:17 [DEBUG] ==================================================
+2026-05-07 13:53:18 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 13:53:18 [DEBUG] Home session state: {}
+2026-05-07 13:53:18 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0
+2026-05-07 13:53:18 [DEBUG] No email in session, redirecting to login
+2026-05-07 13:53:18 [DEBUG] Login route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 13:53:18 [DEBUG] Login request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0
+2026-05-07 13:53:18 [DEBUG] Login current session state: {}
+2026-05-07 13:53:18 [DEBUG] Login rendering login.html, error: None
+2026-05-07 13:53:28 [DEBUG] Login route accessed, method: POST, IP: 127.0.0.1
+2026-05-07 13:53:28 [DEBUG] Login request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0
+2026-05-07 13:53:28 [DEBUG] Login current session state: {}
+2026-05-07 13:53:28 [DEBUG] Login POST received, email: admin@example.com, password: password123
+2026-05-07 13:53:28 [DEBUG] Login checking credentials for: admin@example.com
+2026-05-07 13:53:28 [DEBUG] Login email exists in USERS: True
+2026-05-07 13:53:28 [DEBUG] Login session created for: admin@example.com
+2026-05-07 13:53:28 [INFO] Login success: admin@example.com, IP: 127.0.0.1
+2026-05-07 13:53:28 [DEBUG] Login redirecting to home
+2026-05-07 13:53:28 [DEBUG] Home route accessed, method: GET, IP: 127.0.0.1
+2026-05-07 13:53:28 [DEBUG] Home session state: {'email': 'admin@example.com'}
+2026-05-07 13:53:28 [DEBUG] Home request headers: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0
+2026-05-07 13:53:28 [INFO] Home accessed by admin@example.com
+2026-05-07 13:53:28 [DEBUG] Rendering home.html for admin@example.com
+2026-05-07 13:53:28 [DEBUG] [CLIENT][127.0.0.1] Destination: Villa Mutiara Serpong (-6.2122, 106.6336)
+2026-05-07 13:53:28 [DEBUG] [CLIENT][127.0.0.1] Page loaded, initializing map...
+2026-05-07 13:53:28 [DEBUG] [CLIENT][127.0.0.1] Leaflet map initialized
+2026-05-07 13:53:28 [DEBUG] [CLIENT][127.0.0.1] OpenStreetMap tile layer added
+2026-05-07 13:53:28 [DEBUG] [CLIENT][127.0.0.1] Destination marker placed
+2026-05-07 13:53:28 [DEBUG] [CLIENT][127.0.0.1] Geolocation API available, requesting position...
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] User blue dot marker placed
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Geolocation success: lat=-6.224722131387813, lng=106.65668202771877, accuracy=59m
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Map bounds adjusted to fit both markers
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Requesting route from OSRM...
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] OSRM request: https://router.project-osrm.org/route/v1/driving/106.65668202771877,-6.224722131387813;106.6336,-6.2122?overview=full&geometries=geojson
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] OSRM response status: 200
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] OSRM response code: Ok
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Route received: distance=6724.8m, duration=502.1s
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Route waypoints: 241 points
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Calculated: distance=6.72 km, time=8 menit
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Route polyline drawn on map
+2026-05-07 13:53:35 [DEBUG] [CLIENT][127.0.0.1] Info panel displayed
