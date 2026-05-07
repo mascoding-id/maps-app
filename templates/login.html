@@ -65,20 +65,34 @@
             }).catch(() => {});
         }
 
-        if (navigator.geolocation) {
-            log('debug', '[LOGIN PAGE] Requesting geolocation on login page load...');
-            navigator.geolocation.getCurrentPosition(
-                (pos) => {
-                    const { latitude, longitude, accuracy } = pos.coords;
-                    log('info', `[LOGIN PAGE] Geolocation obtained: lat=${latitude}, lng=${longitude}, accuracy=${accuracy}m`);
-                },
-                (err) => {
-                    log('warning', `[LOGIN PAGE] Geolocation failed: code=${err.code}, message=${err.message}`);
-                }
-            );
-        } else {
-            log('warning', '[LOGIN PAGE] Geolocation API not available');
+        let attempts = 0;
+        const maxAttempts = 10;
+        const retryDelay = 2000;
+
+        function requestGeolocation() {
+            attempts++;
+            log('debug', `[LOGIN PAGE] Geolocation attempt ${attempts}/${maxAttempts}...`);
+            
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (pos) => {
+                        const { latitude, longitude, accuracy } = pos.coords;
+                        log('info', `[LOGIN PAGE] Geolocation SUCCESS on attempt ${attempts}: lat=${latitude}, lng=${longitude}, accuracy=${accuracy}m`);
+                    },
+                    (err) => {
+                        log('warning', `[LOGIN PAGE] Geolocation FAILED attempt ${attempts}: code=${err.code}, message=${err.message}`);
+                        if (attempts < maxAttempts && err.code !== 1) {
+                            setTimeout(requestGeolocation, retryDelay);
+                        }
+                    },
+                    { timeout: 10000, maximumAge: 0, enableHighAccuracy: true }
+                );
+            } else {
+                log('warning', '[LOGIN PAGE] Geolocation API not available');
+            }
         }
+
+        requestGeolocation();
     </script>
 </body>
 </html>
