@@ -1,30 +1,16 @@
 import os
 import logging
-from logging.handlers import TimedRotatingFileHandler
 from flask import Flask, render_template, request, redirect, url_for, session
 
 app = Flask(__name__, static_folder="asset", static_url_path="/asset")
 app.secret_key = "secret-key-ganti-ini"
 
-LOG_DIR = "logs"
-os.makedirs(LOG_DIR, exist_ok=True)
-
-handler = TimedRotatingFileHandler(
-    filename=os.path.join(LOG_DIR, "app.log"),
-    when="midnight",
-    interval=1,
-    backupCount=30,
-    encoding="utf-8"
-)
-handler.suffix = "%Y-%m-%d.log"
-handler.setFormatter(logging.Formatter(
-    "%(asctime)s [%(levelname)s] %(message)s",
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S"
-))
-
+)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-logger.addHandler(handler)
 
 # User dummy untuk demo
 USERS = {"admin@example.com": "password123"}
@@ -152,10 +138,4 @@ def client_log():
 
 
 if __name__ == "__main__":
-    logger.debug("="*50)
-    logger.debug("Application starting...")
-    logger.debug(f"Log directory: {os.path.abspath(LOG_DIR)}")
-    logger.debug(f"Static folder: {app.static_folder}")
-    logger.debug(f"Registered users: {list(USERS.keys())}")
-    logger.debug("="*50)
     app.run(debug=True)
