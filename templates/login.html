@@ -16,8 +16,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Roboto', sans-serif; background: #f0f4f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
-        .card { background: white; border-radius: 28px; padding: 48px 40px; width: 100%; max-width: 420px; box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05); }
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            background: url('/asset/images/villa.jpg') center/cover no-repeat fixed;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+        .card { background: white; border-radius: 28px; padding: 48px 40px; width: 100%; max-width: 420px; box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05); position: relative; z-index: 1; }
         .logo { text-align: center; margin-bottom: 16px; }
         .logo svg { width: 75px; height: 24px; }
         h1 { text-align: center; font-family: 'Google Sans', sans-serif; font-size: 24px; font-weight: 400; color: #1f1f1f; margin-bottom: 8px; }
